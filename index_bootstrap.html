@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Evaluacion</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="css/style.css">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
-<body>
+<body class="container-fluid">
 	<header>
-		<nav id="matnav">
-		    <div class="nav-wrapper">
-		      <a href="#" class="brand-logo">Freelancer</a>
-		      <ul id="nav-mobile" class="right hide-on-med-and-down">
-		        <li><a href="#Portafolio">Portafolio</a></li>
-		        <li><a href="#Componentes">Components</a></li>
-		        <li><a href="#About">About</a></li>
-		      </ul>
-		    </div>
-       </nav>
+		<nav>
+			<div>
+				<h3 class="nav">Freelancer</h3>
+				<ul class="nav justify-content-end">
+				<li class="nav-item"><a class="nav-link" href="#Portafolio">Portafolio</a></li>
+  				<li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+  				<li class="nav-item"><a class="nav-link" href="#Contacto">Contact</a></li>
+			</ul>
+			</div>		
+		</nav>
 	</header>
 	<section id="Freelancer">
 		<img src="./img/profile.png" alt="">	
@@ -26,50 +28,55 @@
 			<p>_________________________*______________________</p>
 			<p>Web developer - Graphic Artist - User Experience</p>		
 	</section>
-	<section id="Portafolio" class="row">
+	<section id="Portafolio">
 		<h2 id="encabezado">Portafolio</h2>
-			<div class="col s12 m6 l4">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12">
 				<a href="cabin.html">
 					<img class="imgPort" src="./img/cabin.png" alt="">
 				</a>				
 			</div>
-			<div class="col s12 m6 l4">
+			<div class="col-lg-4 col-md-6 col-sm-12">
 				<a href="cake.html">
 					<img class="imgPort" src="./img/cake.png" alt="">
 				</a>
 			</div>
-			<div class="col s12 m6 l4">
+			<div class="col-lg-4 col-md-6 col-sm-12">
 				<a href="circus.html">
 					<img class="imgPort" src="./img/circus.png" alt=""></div>
 				</a>
 		</div>
-			<div class="col s12 m6 l4">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12">
 				<a href="game.html">
 					<img class="imgPort" src="./img/game.png" alt="">
 				</a>
 			</div>
-			<div class="col s12 m6 l4">
+			<div class="col-lg-4 col-md-6 col-sm-12">
 				<a href="safe.html">
 					<img class="imgPort" src="./img/safe.png" alt="">
 				</a>
 			</div>
-			<div class="col s12 m6 l4">
+			<div class="col-lg-4 col-md-6 col-sm-12">
 				<a href="submarine.html">
 					<img class="imgPort" src="./img/submarine.png" alt="">
 				</a>
 			</div>
+		</div>
 	</section>
-	<section id="About" class="row">	
+	<section id="About">	
 		<h2 id="encabezado">About</h2>
-			<div class="col s12 m12 l6">
+		<div class="row">
+			<div class="col-lg-6 col-sm-1 col-md-1">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quos reprehenderit dicta ex consequatur earum atque eius delectus ipsam! Blanditiis perspiciatis nam soluta doloremque obcaecati hic commodi. Quae, pariatur, ab?
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus itaque ea, placeat sint, assumenda tenetur. Quam hic doloremque, est, perferendis rem animi labore quod esse dignissimos nulla cumque officia atque.</p>
 			</div>
-			<div class="col s12 m12 l6">
+			<div class="col-lg-6 col-sm-1 col-md-1">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa placeat voluptatum similique a optio ducimus iste earum ea possimus nam omnis fugit illum, impedit quisquam consequuntur officiis nulla minus non.
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsam harum, assumenda? Inventore recusandae eaque odit nesciunt laudantium dolor quam error pariatur aliquam. Repellat itaque provident porro, officiis ab vel.</p>	
 			</div>	
-		<button class=""> <i class="fas fa-download fa-2x"></i>Download it now!!</button>		
+		</div>
+		<button class="btn btn-outline-info"> <i class="fas fa-download fa-2x"></i>Download it now!!</button>		
 	</section>
 	<section id="Contacto">
 		<h2 id="encabezado">Contact Me</h2>
@@ -96,24 +103,26 @@
 	</section>
 	<footer id="piepagina">	
 		<div class="row">	
-			<div class="col s12 m2 l4">
+			<div class="col-lg-4 col-sm-1 col-md-1">
 			<h3>Location</h3>
 			<p> Av. Ceylan #850</p>
 			<p>Departamentos del sol</p>
 		</div>
-		<div class="col s12 m12 l4">
+		<div class="col-lg-4 col-sm-1 col-md-1">
 			<h3>About the web</h3>
 			<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
 			<a href="https://plus.google.com/discover"><i class="fab fa-google-plus-g"></i></a>
 			<a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
 			<a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>			
 		</div>
-		<div class="col s12 m12 l4">
+		<div class="col-lg-4 col-sm-1 col-md-1">
 			<h3>About the Freelancer</h3>
 			<p>consectetur adipisicing elit. Eum, nisi, eveniet culpa rem deleniti nesciunt reprehenderit eligendi, beatae dolores voluptatibus ea, repellat quam voluptatum labore quibusdam nam. Commodi officia, quos!</p>
 		</div>			
 		</div>
-	</footer>	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 </html>
